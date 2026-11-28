@@ -44,7 +44,8 @@ const subtitleLocales = {
 	Chinese: 'zh-Hans',
 	TraditionalChinese: 'zh-Hant',
 	Japanese: 'ja',
-	Korean: 'ko'
+	Korean: 'ko',
+	Thai: 'th'
 };
 
 const CHARACTER = 'CH0070';
@@ -61,12 +62,12 @@ const AUDIO_DETAIL = [
 				"これでも一応、驚嘆を感じているよ。"
 			],
 			English: [
-				"..Ah, it's you.",
-				"You surprised me quite a bit."
+				"...I didn't know you were here.",
+				"It may not seem like it, but I assure you, I'm quite surprised."
 			],
 			Chinese: [
-				"……啊，是你啊。",
-				"别看我这样，我其实有感到惊讶呢。"
+				"……都没注意到老师来了。",
+				"说实话，我吓得心都跳到嗓子眼了。"
 			],
 			TraditionalChinese: [
 				"……你來了呢。",
@@ -75,7 +76,8 @@ const AUDIO_DETAIL = [
 			Korean: [
 				"…오신 줄도 모르고 있었네요.",
 				"그렇게 안 보이시겠지만, 이래 봬도 놀란 상태랍니다."
-			]
+			],
+			Thai: ["ฉันไม่รู้เลยค่ะว่าคุณครูมาแล้ว...","ถึงจะไม่ดูเป็นอย่างนั้น แต่เห็นอย่างนี้ ฉันก็ตกใจมากนะคะ"]
 		}
 	},
 	{
@@ -85,12 +87,12 @@ const AUDIO_DETAIL = [
 				"私もまた、それに焦がれていたとも言える。"
 			],
 			English: [
-				"Nothing to apologize for. Surprises is what enriches a world.",
-				"One could say, I have longed for one as well."
+				"Oh, don't misunderstand. Surprises can be wonderful things.",
+				"Even things you anticipate can be surprises when they happen."
 			],
 			Chinese: [
-				"无需道歉，惊讶能令世界更加饱满。",
-				"不如说，我还一直期待着它。"
+				"也不是什么坏事。让人惊喜的事情多一点，生活才更有乐趣嘛。",
+				"其实我一直……都在盼着这一天呢。"
 			],
 			TraditionalChinese: [
 				"不，這並不是壞事……對我而言，感到驚訝是件開心的事。",
@@ -99,7 +101,8 @@ const AUDIO_DETAIL = [
 			Korean: [
 				"나쁜 이야기는 아니에요. 놀랄 일이 많이 있다는 건, 즐거운 일이죠.",
 				"전부터 쭉… 바래 왔던 일이니까요."
-			]
+			],
+			Thai: ["ฉันไม่ได้บอกว่าไม่ดีค่ะ การมีอะไรให้ตกใจเยอะๆ ถือเป็นเรื่องสนุกค่ะ","มันเป็นสิ่งที่ฉัน... ปรารถนามาโดยตลอดน่ะค่ะ"]
 		}
 	},
 	{
@@ -109,12 +112,12 @@ const AUDIO_DETAIL = [
 				"この様に君と、目を交わしていることだとも。"
 			],
 			English: [
-				"But, I never..",
-				"Thought we would be exchanging gazes like this."
+				"...For example...",
+				"Something like you, Sensei, suddenly showing up in front of me..."
 			],
 			Chinese: [
-				"不过，令我意外的是……",
-				"如此这般，与你四目相对。"
+				"……更何况还是以这样的方式……",
+				"老师突然出现在眼前，那我可是求之不得呢……"
 			],
 			TraditionalChinese: [
 				"而且還是像這樣……",
@@ -123,7 +126,8 @@ const AUDIO_DETAIL = [
 			Korean: [
 				"…그것도 이렇게…",
 				"눈앞에 선생님이 깜짝 나타나신, 이런 거라면 더더욱…."
-			]
+			],
+			Thai: ["ยิ่งเป็นการที่...","คุณครูมาปรากฏตัวต่อหน้า อย่างกะทันหันแบบนี้แล้วด้วย..."]
 		}
 	},
 	{
@@ -133,12 +137,12 @@ const AUDIO_DETAIL = [
 				"私から便りを出したのだったか、失礼。"
 			],
 			English: [
-				"But why... oh, I see.",
-				"I was the one that sent you a message, wasn't I. Apologies."
+				"Let's see. Today was... Ah, yes.",
+				"You came here for my request."
 			],
 			Chinese: [
-				"不过为何你……不，原来如此。",
-				"本来就是我发出的消息。失礼了。"
+				"我看看。今天……啊，原来如此。",
+				"是受我之托来的吧。"
 			],
 			TraditionalChinese: [
 				"話說今天……啊啊，說的也是。",
@@ -147,7 +151,8 @@ const AUDIO_DETAIL = [
 			Korean: [
 				"어디 보죠. 오늘이… 아, 그렇군요.",
 				"제 부탁으로 와 주신 거였죠."
-			]
+			],
+			Thai: ["ไหนดูซิ วันนี้... อ้อ นั่นสินะคะ","คุณครูมาเพราะฉันขอให้มานี่เนอะ"]
 		}
 	},
 	{
@@ -158,14 +163,14 @@ const AUDIO_DETAIL = [
 				"君と交わす言葉に、私はどこか惹かれているようで。"
 			],
 			English: [
-				"No, I didn't call you over with anything in mind.",
-				"It's just...",
-				"A part of me feels drawn in, by the conversation we had."
+				"...For that, I apologize. There's no particular occasion.",
+				"I simply...",
+				"I...simply wanted to talk with you. That's all."
 			],
 			Chinese: [
-				"不，并非有什么要事才请你过来。",
-				"只是……",
-				"与你交换的每一句言语，都奇妙地令我着迷。"
+				"……对不起啊。其实也没什么特别的事。",
+				"就……",
+				"……只是，想跟你聊聊天……而已。"
 			],
 			TraditionalChinese: [
 				"……非常抱歉。其實並不是有什麼特別的事。",
@@ -174,9 +179,10 @@ const AUDIO_DETAIL = [
 			],
 			Korean: [
 				"…죄송해요. 별다른 일이 있는 건 아니랍니다.",
-				"그냥...",
+				"그저…",
 				"…단지, 당신과의 대화를 나누고 싶다. 그렇게 생각했을 뿐."
-			]
+			],
+			Thai: ["ขอโทษด้วยค่ะ... ที่จริงฉันไม่ได้มีเรื่อง อะไรพิเศษหรอกค่ะ","ฉันแค่...","อยาก... คุยกับคุณ ฉันก็แค่คิดแบบนี้น่ะ"]
 		}
 	}
 ];
@@ -287,7 +293,7 @@ function playVoiceline() {
 			track.play().catch(finish);
 
 			if (dialogBox) {
-				textbox.textContent = dialog[window.selectedLanguage][index];
+				textbox.textContent = getSubtitleText(dialog, window.selectedLanguage, index);
 				textbox.style.opacity = 1;
 			}
 		},
@@ -457,6 +463,16 @@ function setMouse(event) {
 	return { x: ax - canvas.width * positionX, y: ay - canvas.height * positionY };
 }
 
+function getSubtitleText(dialog, language, index) {
+	let text = dialog?.[language]?.[index];
+	if (text == null && language === 'Thai') {
+		language = 'English';
+		text = dialog?.[language]?.[index];
+	}
+	textbox.lang = subtitleLocales[language];
+	return text ?? "";
+}
+
 function updateSubtitleLanguage() {
 	let language = subtitleLanguagePreference;
 	if (language === 'auto') {
@@ -470,6 +486,8 @@ function updateSubtitleLanguage() {
 			language = 'Japanese';
 		} else if (primary === 'ko' || primary === 'korean' || primary === 'koreana') {
 			language = 'Korean';
+		} else if (primary === 'th' || primary === 'thai') {
+			language = 'Thai';
 		} else {
 			language = 'English';
 		}
@@ -479,7 +497,7 @@ function updateSubtitleLanguage() {
 	window.selectedLanguage = language;
 	textbox.lang = subtitleLocales[language];
 	const clip = currentTracks.at(-1);
-	if (dialogBox && clip) textbox.textContent = clip.dialog[language][clip.index];
+	if (dialogBox && clip) textbox.textContent = getSubtitleText(clip.dialog, language, clip.index);
 }
 
 function init() {
@@ -770,13 +788,28 @@ const GLARE_SLOTS = new Set([
 ]);
 const GLARE_OPACITY = 0.24;
 
-// Scale attachment opacity once so animated slot colors still control the light.
+const WINDOW_EXPOSURE = new Map([
+	['Bg', 0.90],
+	['curtain_01', 0.94],
+	['curtain_02', 0.94]
+]);
+
+// Tint these attachments once so Spine timelines retain control of slot colors and opacity.
 function applyGlareOpacity(skeletonData) {
+	const tinted = new Set();
 	for (const skin of skeletonData.skins) {
 		for (const { slotIndex, attachment } of skin.getAttachments()) {
 			const slot = skeletonData.slots[slotIndex];
-			if (!GLARE_SLOTS.has(slot.name) || slot.blendMode !== 1 || !attachment.color) continue;
-			attachment.color.a *= GLARE_OPACITY;
+			const color = attachment.color;
+			if (!color) continue;
+			const exposure = WINDOW_EXPOSURE.get(slot.name);
+			if (exposure !== undefined && !tinted.has(attachment)) {
+				color.r *= exposure;
+				color.g *= exposure;
+				color.b *= exposure;
+				tinted.add(attachment);
+			}
+			if (GLARE_SLOTS.has(slot.name) && slot.blendMode === 1) color.a *= GLARE_OPACITY;
 		}
 	}
 }
